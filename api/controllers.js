@@ -5,7 +5,7 @@ const path = require('path');
 const Joi = require('joi');
 
 const config = require('../config');
-const DATA_DIR = path.join(__dirname, '/..', config.DATA_DIR, '/courses.json');
+const DATA_DIR = path.join(__dirname, '..', 'data', 'courses.json');
 
 const controllers = {
   hello: (req, res) => {
